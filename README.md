@@ -17,5 +17,5 @@ A responsive image gallery built using HTML, CSS, and JavaScript.
 - JavaScript (Vanilla)
 
  How It Works
-Images are stored in a JavaScript array.  
-Filtering and searching are done using array `filter()` methods without page reload.
+- Images are stored in a JavaScript array.  
+- Filtering and searching are done using array `filter()` methods without page reload.
