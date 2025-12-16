@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visual Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="top-bar">
+    <h1>Visual Gallery</h1>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search visuals..." />
+      <select id="categorySelect">
+        <option value="All">All</option>
+        <option value="Nature">Nature</option>
+        <option value="Travel">Travel</option>
+        <option value="Food">Food</option>
+        <option value="People">People</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Gallery -->
+  <main>
+    <section id="gallery" class="gallery"></section>
+    <p id="emptyState" class="empty">No images found</p>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightboxImg" alt="" />
+    <div class="lightbox-info">
+      <h3 id="lightboxTitle"></h3>
+      <span id="lightboxCategory"></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
